@@ -1,0 +1,186 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* Sets default for all.
+*{
+	margin: auto;
+	padding: inherit;
+}*/
+body {
+	background-color: black;
+	color: white;
+	font-family: "Comic Sans MS", cursive;
+	font-size: 20px;
+	font-weight: normal;
+	/* same as above font: normal 20px "Comic Sans MS", cursive */
+	line-height: 1.6em;
+	margin: 0;
+}
+
+.box-1{
+	background-color: cornflowerblue;
+	border: 5px red solid;
+	border-bottom-width: 100px;
+	border-bottom-style: groove;
+	padding: 20px;
+	margin: 20px;
+}
+.box-1 h1{
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+	font-weight: 500;
+	font-style: italic;
+	text-decoration: underline;
+	color: black;
+	text-transform: uppercase;
+	letter-spacing: 0.2em;
+	word-spacing: 1em;
+}
+
+.box-2{
+	border: 10px dotted;
+	padding: 20px;
+	margin: 20px;
+}
+
+.clr{
+	clear: both;
+}
+
+#main{
+	float: left;
+	width: 70%;
+	padding: 15px;
+	box-sizing: border-box;
+}
+
+.p-box{
+	width: 800px;
+	height: 500px;
+	border: 1px solid white;
+	color: black;
+	margin-top: 30px;
+	position: relative;
+	background-image: url("../pad.jpg");
+	background-repeat: no-repeat;
+}
+
+.mylis li:first-child{
+	background: red;
+}
+
+.mylis li:nth-child(2){
+	background: yellow;
+}
+
+.mylis li:last-child{
+	background: blue;
+}
+
+.mylis li:nth-child(odd){
+	text-decoration: underline;
+}
+
+.p-box h1{
+	position: absolute;
+	top: 40px;
+	left: 100px;
+}
+
+.p-box h2{
+	position: absolute;
+	bottom: 40px;
+	right: 100px;
+}
+
+.fixed{
+	position: fixed;
+	top: 400px;;
+}
+
+#side{
+	float: right;
+	width: 30%;
+	background-color: darkgray;
+	color: white;
+	padding: 15px;
+	box-sizing: border-box;
+}
+
+.box-3{
+	float: left;
+	width: 33.33%;
+	border: 1px solid #ccc;
+	padding: 10px;
+	box-sizing: border-box; 
+}
+
+.cat{
+	border: 1px red solid;
+	padding: 10px;
+	border-radius: 15px;
+}
+
+a{
+	text-decoration: none;
+	color: purple;
+}
+
+a:hover{
+	color: red;
+}
+
+a:active{
+	color: green;
+}
+
+a:visited{
+	color: yellow;
+}
+
+.cat li{
+	padding-bottom: 8px;
+	border-bottom: dotted 1px #8E1416;
+	/* this command adds an image as the bullet points
+	list-style-image: url("../pad.jpg");*/
+}
+
+.cat ul{
+	padding: 0px;
+	list-style: none;
+}
+
+.fo{
+	padding: 20px;
+}
+
+.fo label{
+	display: block;
+}
+
+.fo input[type="text"], .fo textarea{
+	padding: 8px;
+	width: 100%;
+}
+
+.fo input[type="submit"]{
+	background-color: darkgray;
+	color: white;
+	padding: 10px 15px;
+	border: none;
+}
+
+button{
+	background-color: darkgray;
+	color: cornflowerblue;
+	padding: 15px;
+}
+
+button:hover{
+	background: green;
+	color: black;
+}
+
+.container{
+	width: 80%;
+	margin: auto;
+}
